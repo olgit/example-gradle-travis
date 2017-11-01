@@ -30,10 +30,9 @@ buildBom{
 
 The `.travis.yml` file has been modified to upload the generated data to Black Duck CoPilot:
 
-
 ```yaml
 after_success:
 - ./gradlew buildBom
 - bash <(curl -s https://copilot.blackducksoftware.com/bash/travis) ./build/blackduck/*_bdio.jsonld
 ```
-olga
+olga add add add
